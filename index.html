@@ -3,15 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Como jugar</title>
+	<title>Amigoo Secreto</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/flickity.min.css">
-	<link rel="stylesheet" type="text/css" href="css/slider-navidad.css">
+	<link rel="stylesheet" href="css/navidad.css">
 </head>
 <body>
 	
 	
-				<div class="main-carousel">
+				<div class="main-carousel" id="paso0">
 				  <div class="carousel-cell welcome-slider">
 				  	<div class="container-fluid">
 				  		<div class="row">
@@ -99,6 +99,36 @@
 	  				</div>
 				</div>
 			</div>
+
+			<!-- primer paso -->
+			<div class="container partitipations-container" id="paso1">
+		        <div class="row">
+		            <div class="col-xs-12">
+		                <div class="row">
+	                        <div class="col-xs-12  information-container">
+                                <span class="title">
+                                	Ingresa el Número de Participantes
+                            	</span><br><br>
+                                <span>Número par (Minimo 4)</span>
+	                        </div>
+	                        <div class="col-xs-12  input-container">
+                                <button class="btn-participantes">
+                                    <span>+</span>
+                                </button><br>
+                                <input type="text" value="2" disabled="disabled"><br>
+                                <button class="btn-participantes">
+                                    <span>-</span>
+                                </button>
+	                        </div>
+	                        <div class="row">
+                                <div class="col-xs-12 ">
+                                    <button class="btn-siguiente">Siguiente</button>
+                                </div>
+	                        </div>
+		                </div>
+		            </div>   
+		        </div>
+		    </div>
 
 	<script type="text/javascript" src="./js/flickity.pkgd.min.js"></script>
 	<script type="text/javascript">
